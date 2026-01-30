@@ -176,7 +176,7 @@
 
   .navbar .container {
     display: flex;
-    justify-content: flex-start !important;
+    justify-content: flex-end !important;
   }
 
   .navbar-toggler {
@@ -184,5 +184,6 @@
   }
 
 }
+
 
 
