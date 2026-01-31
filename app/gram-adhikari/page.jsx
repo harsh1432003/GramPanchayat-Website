@@ -2,7 +2,6 @@ import React from "react";
 import "./page.css";
 import GrampanchayatHeader from "../Components/Header/GrampanchayatHeader";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Image from "next/image";
 import GrampanchayatFooter from "../Components/Footer/GrampanchayatFooter";
 
 export default function GramAdhikari() {
@@ -109,7 +108,20 @@ export default function GramAdhikari() {
           </div>
         </div>
       </div>
-      <GrampanchayatFooter/>
+
+      <div className="video-section">
+        <h3 className="video-title">ग्रामपंचायत कामकाजाची व्हिडिओ झलक</h3>
+
+        <div className="video-wrapper">
+          <video controls width="100%">
+            <source
+              src="/Images/gramAdhikariIcons/video.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+      <GrampanchayatFooter />
     </>
   );
 }
