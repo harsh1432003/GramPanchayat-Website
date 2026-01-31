@@ -2,9 +2,9 @@
 
 
 .card-section {
-  min-height: 80vh;
   padding: 20px;
 }
+
 
 .card-wrapper {
   display: flex;
@@ -67,7 +67,7 @@
   padding: 0;
   font-size: 1.5em;
   font-weight: bold;
-  color:black ;
+  color: black;
 }
 
 .role {
@@ -196,22 +196,28 @@ hr {
   border-radius: 10px;
 }
 
-
 @media (max-width: 768px) {
-
   .card-section {
     min-height: auto;
-    padding: 0;                 /* remove outer spacing */
+    padding: 0; /* remove outer spacing */
   }
 
   .card-wrapper {
-    padding: 0;                 /* remove wrapper padding */
-    background: transparent;    /* optional */
+    padding: 0; /* remove wrapper padding */
+    background: transparent; /* optional */
   }
 
+  .video-section {
+    padding: 10px 0; /* reduce top and bottom space */
+  }
+
+  .video-title {
+    margin-bottom: 10px;
+  }
+  
   .gp-card {
-    margin: 0;                  /* remove extra vertical margin */
-    border-radius: 0;           /* optional for full-width look */
+    margin: 0; /* remove extra vertical margin */
+    border-radius: 0; /* optional for full-width look */
   }
 
   .highlight-row {
